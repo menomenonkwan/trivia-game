@@ -1,0 +1,119 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap");
+
+:root {
+  background-color: #3eecac;
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: -o-linear-gradient(71deg, #3eecac 0%, #ee74e1 100%);
+  background-image: linear-gradient(19deg, #3eecac 0%, #ee74e1 100%);
+  min-height: 100vh;
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 4rem;
+}
+
+.container h2 {
+  margin-bottom: 2.5rem;
+  text-shadow: 0 1.5px 3px #45482b;
+}
+
+button {
+  background: #b49e51;
+  font-size: 3rem;
+  font-family: "Alegreya Sans", sans-serif;
+  padding: 10px 25px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  width: 25rem;
+  border: none;
+  -webkit-box-shadow: 0 3px 7px #45482b;
+  box-shadow: 0 3px 7px #45482b;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  color: #342d47;
+  background: #cda47d;
+  -webkit-box-shadow: 0 4px 8px #342d47;
+  box-shadow: 0 4px 8px #342d47;
+  cursor: pointer;
+}
+
+.box-score {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 5px;
+  background: rgba(0, 0, 0, 0.4);
+  font-size: 3rem;
+  color: #c8afb2;
+  text-shadow: 0 1px 0 #342d47;
+}
+
+.box-score p {
+  font-size: 2.5rem;
+}
+
+.box-score h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.box-score span {
+  font-size: 5rem;
+  color: #273d5e;
+}
